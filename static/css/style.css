@@ -4,8 +4,6 @@ body {
     margin: 0;
 }
 
-
-
 h1 {
     color: #000000;
     font-size: 130%;
@@ -61,7 +59,14 @@ table {
 name {
     color: #000000;
     font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
-    font-size: 170%;
+    font-size: 250%;
+    margin: 0px 0px 0px 0px;
+}
+
+affiliation {
+    color: #000000;
+    font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+    font-size: 130%;
     margin: 0px 0px 0px 0px;
 }
 
@@ -72,3 +77,8 @@ contact{
     margin: 0px 0px 0px 0px;
 }
 
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
