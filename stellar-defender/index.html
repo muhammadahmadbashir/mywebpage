@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Defender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="ui-layer">
+        <div id="score-board">Score: <span id="score">0</span></div>
+        <div id="start-screen" class="screen active">
+            <h1>STELLAR DEFENDER</h1>
+            <p>Defend the galaxy from the alien invasion.</p>
+            <div class="controls-info">
+                <div class="key">←</div>
+                <div class="key">→</div> to Move
+                <div class="key space">SPACE</div> to Shoot
+            </div>
+            <button id="start-btn">INITIALIZE MISSION</button>
+        </div>
+        <div id="game-over-screen" class="screen">
+            <h1>GAME OVER</h1>
+            <p>Final Score: <span id="final-score">0</span></p>
+            <button id="restart-btn">RETRY MISSION</button>
+        </div>
+    </div>
+    <canvas id="game-canvas"></canvas>
+    <script src="game.js"></script>
+</body>
+
+</html>
